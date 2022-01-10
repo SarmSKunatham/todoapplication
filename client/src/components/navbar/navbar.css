@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: left;
+    background-color: #100f0fe0;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+}
+
+.todo__logo {
+    color: white;
+    padding: 3px 5px;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.todo__shadow {
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    z-index: -1;
+    bottom: 12px;
+}
+
+.todo__text {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.menu {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+.menu_active {
+    color: rgba(201, 196, 196, 0.794);
+}
+
+.navbar_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

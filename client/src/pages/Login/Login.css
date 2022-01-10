@@ -1,0 +1,91 @@
+.login_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/td1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login_container {
+    display: flex;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+}
+
+.login_header {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.input_container {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.login_username {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.login_password {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.link__button {
+    text-decoration: none;
+}
+
+.login_button {
+    color: white;
+    font-size: 14px;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 7px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.not__login {
+    margin-top: 5px;
+    display: flex;
+    font-size: 12px;
+}
+
+.not__member {
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+
+.slash {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.forgot__password {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}

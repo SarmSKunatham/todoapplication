@@ -1,0 +1,94 @@
+.registerpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/td1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.register_container {
+    padding: 5px 0;
+    margin-top: 10px;
+    width: 450px;
+    height: 330px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.register_header {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.input_container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.input_name {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.input_email {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.input_username {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.input_password {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.link__button {
+    text-decoration: none;
+}
+
+.register_button {
+    color: white;
+    font-size: 14px;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 7px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0;
+}
+
+.member__login {
+    margin-top: 5px;
+    display: flex;
+}
+
+.are__member {
+    font-weight: 400;
+}
+
+.login {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    font-weight: 400;
+}
